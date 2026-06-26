@@ -8,7 +8,7 @@ const audit = fs.readFileSync(path.join(root, "ai-exposure-audit", "index.html")
 const assertions = [
   [
     home.includes("New: AI Exposure + Website Trust Audits") &&
-      home.includes('href="/ai-exposure-audit/"'),
+      home.includes('href="ai-exposure-audit/"'),
     "Homepage CTA links to audit page"
   ],
   [
