@@ -402,7 +402,7 @@ p {
   background:
     linear-gradient(180deg, rgba(5, 5, 5, 0.9), rgba(5, 5, 5, 0.94)),
     radial-gradient(circle at 20% 10%, rgba(64, 128, 240, 0.34), transparent 26%),
-    url("/assets/ai-exposure-hero.png") center / cover;
+    url("ai-exposure-hero.png") center / cover;
   color: var(--white);
 }
 
