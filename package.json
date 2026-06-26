@@ -1,0 +1,10 @@
+{
+  "name": "stoked-web-design",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-check.js",
+    "lint": "node scripts/lint-check.js",
+    "test": "node scripts/test-routes.js"
+  }
+}
